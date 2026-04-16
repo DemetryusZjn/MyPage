@@ -1,3 +1,15 @@
-style{
-    
+h1{
+    color:steelblue;
+}
+
+h2{
+    color: lightseagreen;
+}
+
+a{
+    color:steelblue;
+}
+
+html{
+    background-color:lavenderblush;
 }
