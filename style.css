@@ -13,3 +13,10 @@ a{
 html{
     background-color:lavenderblush;
 }
+*{
+    text-align: center;
+}
+ul {
+  display: inline-block;
+  
+}
