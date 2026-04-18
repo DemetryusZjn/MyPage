@@ -25,6 +25,9 @@ h2{
     animation: fadeInUp 1.8s ease-out;
     
 }
+h3{
+    animation: fadeInUp 1.8s ease-out;
+}
 
 p{
     animation: fadeInUp 1.8s ease-out;
