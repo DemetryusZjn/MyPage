@@ -1,13 +1,33 @@
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Starts 20px lower */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);    /* Ends at its normal spot */
+    }
+}
+
 h1{
     color:steelblue;
     font-style:italic;
     font-size: 300%;
     margin-bottom: -1%;
+    animation: fadeInUp 2s ease-out;
 }
+
 
 h2{
     color: lightseagreen;
     margin-top: 2%;
+    animation: fadeInUp 1.8s ease-out;
+    
+}
+
+p{
+    animation: fadeInUp 1.8s ease-out;
 }
 
 a{
@@ -24,4 +44,9 @@ html{
 
 ul {
     display: inline-block; 
+    animation: fadeInUp 1.8s ease-out;
+}
+
+img {
+    animation: fadeInUp 2.5s ease-out;
 }
