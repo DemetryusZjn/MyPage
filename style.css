@@ -92,7 +92,7 @@ li{
     margin-bottom:  -1%;
     font-size: 270%;
     font-family: "inter", sans-serif;
-    animation: fadeInUp 1.8s ease-out;
+    animation: fadeInUp 3s ease-out;
 }
 
 .insta{
@@ -130,4 +130,8 @@ li{
     color:rgb(0, 0, 0);
     margin-top: 0%;
     margin-bottom: 0%;
+}
+
+.ucontact{
+    animation: fadeInUp 3s ease-out;
 }
