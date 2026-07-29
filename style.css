@@ -18,6 +18,7 @@ h1{
     margin-top: 7%;
     margin-bottom: -2%;
     animation: fadeInUp 1s ease-out;
+    font-weight: bold;
 }
 
 
@@ -28,6 +29,7 @@ h2{
     font-size: 270%;
     font-family: "inter", sans-serif;
     animation: fadeInUp 1s ease-out;
+    font-weight: bold;
     
 }
 
@@ -41,17 +43,16 @@ h2{
     
 }
 
-h3{
-    animation: fadeInUp 1.8s ease-out;
-
-}
 
 p{
     animation: fadeInUp 1.8s ease-out;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    margin-top: 2%;
 }
 
 a{
-    color:steelblue;
+    color:rgb(146, 145, 145);
     animation: fadeInUp 3s ease-out;
 }
 
@@ -73,4 +74,38 @@ img{
     margin-top: 2%;
     margin-bottom: 2%;
     animation: fadeInUp 1s ease-out;
+}
+
+li{
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    color:rgb(146, 145, 145);
+}
+
+.contact{
+    color: rgb(0, 0, 0);
+    margin-top: 7%;
+    margin-bottom:  1%;
+    font-size: 270%;
+    font-family: "inter", sans-serif;
+    animation: fadeInUp 1.8s ease-out;
+}
+
+.insta{
+    display: inline-block;
+    text-decoration: none;
+    
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    color:rgb(146, 145, 145);
+    animation: fadeInUp 3s ease-out;
+}
+
+.linkedin{
+    display: inline-block;
+    text-decoration: none;
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    color:rgb(146, 145, 145);
+    animation: fadeInUp 3s ease-out;
 }
